@@ -1,0 +1,10 @@
+
+.aliQuote2 {
+  @extend %columns;
+  float: left;
+}
+
+.aliQuote1 {
+  @extend %columns;
+  float: right;
+}
