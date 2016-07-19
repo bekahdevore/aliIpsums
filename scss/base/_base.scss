@@ -31,6 +31,16 @@ img {
   border-radius: $br;
 }
 
+input {
+  height: 50px;
+  font-size: 14pt;
+  width: 10%;
+  text-align: center;
+  margin: 0;
+  border-radius: 10%;
+  position: relative;
+}
+
 ul,
 ol {
   margin: 30px 0;
