@@ -7,7 +7,11 @@
 body {
   @include text(1em, 1.5, $color: $color-text-base);
   margin: 0;
-  font-family: $stack-helvetica;
+  font-family: $stack-roboto;
+}
+
+p {
+  @include text(1.5em);
 }
 
 h1,

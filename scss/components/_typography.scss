@@ -28,7 +28,7 @@
 }
 
 .intro {
-  @include text(1.25em, 1.6, $color: initial);
+  @include text(1.3em, 1.6, $color: $color-text-dark);
   
   @media #{$brk-narrow} {
     font-size: 1rem;

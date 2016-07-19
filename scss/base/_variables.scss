@@ -3,14 +3,13 @@
 $white          : #fff;
 $black          : #000;
 $grey           : #878787;
-$regent-st-blue : #add8e6;
-$river-bed      : #48525c;
-$yellow-orange  : grey;
-$green		    : #470a0a;
+$black			: black;
+$river-bed      : #2E2124;
+$deep-red		: #470a0a;
 
 // Functional color variables
 
-$color-prim         : $green;
+$color-prim         : $deep-red;
 $color-sec          : $river-bed;
 
 $color-text-light   : $white;
@@ -18,10 +17,10 @@ $color-text-base    : $grey;
 $color-text-dark    : $river-bed;
 
 $color-border-light : lighten($grey, 35%);
-$color-border-dark  : $yellow-orange;
+$color-border-dark  : $river-bed;
 
-$color-link-default : $yellow-orange;
-$color-link-visited : $regent-st-blue;
+$color-link-default : $deep-red;
+$color-link-visited : $black;
 
 $color-shadow       : rgba($black,.8);
 $color-body         : $white;
@@ -31,6 +30,7 @@ $color-body         : $white;
 $stack-sans-serif : Helvetica, Arial, sans-serif;
 $stack-helvetica  : 'Helvetica Neue', $stack-sans-serif;
 $stack-abolition  : 'Abolition Regular', $stack-sans-serif;
+$stack-roboto	  : 'Pathway Gothic One', san-serif;
 
 // Border radius
 
