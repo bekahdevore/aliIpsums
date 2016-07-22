@@ -190,7 +190,7 @@ a:hover {
   border-style: none;
   text-align: center;
   overflow: visible;
-  }  @media (max-width: 768px) {
+  }  @media (max-width: 625px) {
     .button {
       background: #2E2124 url("../img/checkmark.png")  no-repeat;
       background-position: center;
