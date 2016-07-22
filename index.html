@@ -5,6 +5,7 @@
     <link href='https://fonts.googleapis.com/css?family=Pathway+Gothic+One' rel='stylesheet' type='text/css'>
     <link rel="stylesheet" href="css/application.css">
     <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.5.7/angular.min.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.5.7/angular-sanitize.min.js"></script>
     <script src="js/app.js"></script>
     <meta name="viewport" content="width=device-width">
   </head>
@@ -27,12 +28,12 @@
         <p>
           <h2>
               Paragraphs: 
-                  <input type="number" name="paragraphs" size="2" width="auto" value="3" ng-model="numberOfParagraphs">
+                  <input type="number" name="paragraphs" size="2" width="auto" min="1" ng-model="numberOfParagraphs">
                   <input type="button" value="Submit" ng-click="loadIpsums()">
           </h2>
         </p>
         <div>
-          <p id="paragraphOutput" onclick="selectAll('paragraphOutput');">{{ ipsumOutput }}</p>
+          <p id="paragraphOutput" onclick="selectAll('paragraphOutput');" ng-bind-html="ipsumOutput"></p>
         </div>
 		</div><!-- End .primary-content -->
 
