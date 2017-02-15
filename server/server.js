@@ -2,8 +2,8 @@
 
 var mongoose = require('mongoose');
 var express = require('express');
-
-mongoose.connect('mongodb://localhost/aliIpsums', function(err) {
+// mongodb://<dbuser>:<dbpassword>@ds139278.mlab.com:39278/ali-ipsums
+mongoose.connect('mongodb://rcd293:GMGoV2ka9gpD@ds139278.mlab.com:39278/ali-ipsums', function(err) {
   if (err) {
     console.log('Failed connecting to MongoDB!');
   } else {
@@ -36,6 +36,6 @@ app.use(function(req, res, next) {
 
 app.use('/api', router);
 
-app.listen(3000, function() {
+app.listen(80, function() {
     console.log("The server is running on port 3000!");
 });
